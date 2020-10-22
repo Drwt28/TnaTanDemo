@@ -90,4 +90,9 @@ public class MainActivity extends AppCompatActivity {
         mProgressBar.setVisibility(View.GONE);
     }
 
+    @Override
+    protected void onPause() {
+        super.onPause();
+
+    }
 }
